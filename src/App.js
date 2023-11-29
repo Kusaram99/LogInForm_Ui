@@ -1,6 +1,6 @@
 import React from "react";
-import Login from "./components/login_signin/Login";
-import Signup from "./components/login_signin/SignUp";
+import Login from "./components/login/Login";
+import Signup from "./components/login/SignUp";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/nav/Nav";
 
