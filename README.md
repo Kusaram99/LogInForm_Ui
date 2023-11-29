@@ -6,11 +6,11 @@
 Demo: [Click here.](https://log-in-form-ui.vercel.app/)
 
 
-``````Run In your Directory field``````
+## Installation
 
 
-``````javascript
-1. clone or download.
-2. npm install
-3. npm start
-``````
+`1. clone or download.`
+
+`2. npm install`
+
+`3. npm start` 
