@@ -1,0 +1,129 @@
+h1,
+h2,
+h3,
+h4,
+label {
+    color: var(--secondary-color);
+}
+
+.my_30 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 30px 0px;
+}
+
+.showcase-content {
+    width: 400px;
+    margin: auto;
+    padding: 23px;
+    border-radius: 20px;
+    border-top: 40px solid var(--secondary-color);
+    box-shadow: 0px 0px 7px -5px var(--primary-color);
+    background-color: var(--tertiary-color);
+}
+
+
+
+.input_style {
+    width: 100%;
+    font-weight: 600;
+    padding: 13px 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+}
+
+input[type="checkbox"] {
+    margin-top: 20px;
+    margin-right: 7px;
+}
+
+input::placeholder {
+    color: var(--secondary-color);
+}
+
+.invalid {
+    font-size: 14px;
+    font-family: monospace, sans-serif;
+    color: var(--red-color);
+}
+
+/* ================================================= Devider part */
+
+.divider_part {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    margin: 25px 0px;
+    background: var(--secondary-color);
+}
+
+.divider_part span {
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--tertiary-color);
+}
+
+
+/* ================================================= login Buttons style  */ 
+
+.login_btn_container {
+    margin: 20px 0px;
+}
+
+.login_btn {
+    width: 100%;
+    font-family: system-ui, roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 21px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid var(--tertiary-color);
+    text-align: center;
+    background: #FFF; 
+    color: var(--tertiary-color);
+}
+
+.google_login {
+    color: #535a60;
+    border-color: #d6d9dc
+}
+
+.facebook_login {
+    /* color: var(--tertiary-color); */
+    background-color: #395697;
+    border-color: transparent
+}
+
+.svg-icon {
+    vertical-align: middle;
+    padding-bottom: 4px;
+    margin-right: 1px;
+}
+
+.link {
+    color: var(--secondary-color);
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.active_btn{
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: bold;
+}
