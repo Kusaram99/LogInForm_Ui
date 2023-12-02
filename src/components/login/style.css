@@ -126,3 +126,14 @@ input::placeholder {
     font-size: 1rem;
     font-weight: bold;
 }
+
+
+
+
+/* ================================================ Responsiveness ================================================*/
+
+@media screen and (max-width: 400px) {
+    .showcase-content{
+        width: 266px;
+    }
+}
